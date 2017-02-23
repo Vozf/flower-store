@@ -2,8 +2,6 @@
 
 
 
-//clear
-//git
 
 
 var path = process.cwd();
