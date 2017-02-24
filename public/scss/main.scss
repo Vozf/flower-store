@@ -3,6 +3,7 @@ $backcol:#cccccc;
 $menubackcol:#333;
 $mainbackcol:#e9e9e9;
 $screensize:612px;
+
 body {
   background-color: $backcol;
   font-family: Helvetica;
@@ -346,15 +347,15 @@ body {
       height: 20px;
     }
     .fb {
-      background: url(https://flower-store-vozf.c9users.io/public/img/facebook.png) no-repeat;
+      background: url(/public/img/facebook.png) no-repeat;
       background-size: 100%;
     }
     .vk {
-      background: url(https://flower-store-vozf.c9users.io/public/img/vk.png) no-repeat;
+      background: url(/public/img/vk.png) no-repeat;
       background-size: 100%;
     }
     .tw {
-      background: url(https://flower-store-vozf.c9users.io/public/img/twitter.png) no-repeat;
+      background: url(/public/img/twitter.png) no-repeat;
       background-size: 100%;
     }
   }
