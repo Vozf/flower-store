@@ -1,9 +1,12 @@
 {
-  "name": "Flower Store",
+  "name": "clementinejs-fcc",
   "version": "1.0.1",
-  "description": "Flower store by Alexander Yaroshevich",
+  "description": "The elegant and lightweight boilerplate for full stack JavaScript.",
   "main": "server.js",
-
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnstonbl01/clementinejs-fcc"
+  },
   "homepage": "http://www.clementinejs.com/",
   "bugs": "https://github.com/johnstonbl01/clementinejs-fcc/issues",
   "keywords": [
