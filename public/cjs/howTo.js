@@ -59,7 +59,7 @@ class HowTo extends React.Component {
       React.createElement(
         "p",
         null,
-        "Or feel free to create your own.Don't forget to check out admin's dashboard in it profile section."
+        "Or feel free to create your own.Don't forget to check out admin's dashboard in it profile section.Id is the string that follows \"item/\" in href on item page.(add tag Best seller to new item for it to appear on main page)"
       ),
       React.createElement(
         "p",
