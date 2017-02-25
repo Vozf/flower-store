@@ -2,7 +2,14 @@
 
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-
+var schemaOptions = {
+    toObject: {
+      virtuals: true
+    }
+    ,toJSON: {
+      virtuals: true
+    }
+  };
 var Item = new Schema({
 
     isAvailiable:{
@@ -42,7 +49,7 @@ var Item = new Schema({
         delight your special recipient with each fragrant bloom. Hand gathered in select floral farms
         and boasting an array. `
     }
-});
+},schemaOptions);
 Item.index({ name: 'text',tags: 'text',_id:'text' });
 Item.virtual('href').get(function(){
     return process.env.APP_URL+"item/"+this._id

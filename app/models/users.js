@@ -2,7 +2,6 @@
 var crypto = require("crypto");
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-var Purchases = require('../models/purchases');
 
 var User = new Schema({
     username: {

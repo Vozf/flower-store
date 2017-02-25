@@ -9,11 +9,7 @@ var Purchases = require('../models/purchases');
 	// //adm.role="admin";
 	// adm.phone="375291234567";
 	// adm.save();
-Items.find({},function(err,doc){
-	doc.forEach(function(val){
-		console.log(val.href);
-	})
-})
+
 // Users.findOne({role:"admin"},function(err,doc){
 // 	if(err) throw err;
 // 			    let arr=[{img:"https://www.ftdimg.com/pics/products/FMTP_200x225.jpg",name:"Tulip Bouquet",tags:["Best Seller","flowers"]},
