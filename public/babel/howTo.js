@@ -47,7 +47,7 @@ class HowTo extends React.Component {
       <li>admin@site.com:admin</li>
       <li>user@site.com:user</li>
       </ul>
-            <p>Or feel free to create your own.Don't forget to check out admin's dashboard in it profile section.
+            <p>Or feel free to create your own.Don't forget to check out admin's dashboard in it profile section.Id is the string that follows "item/" in href on item page.(add tag Best seller to new item for it to appear on main page)
             </p>
             <p>You can also search for "sale" for all discounts and "all" for all items as well as use tags as "Birthday" "best seller" "gift" and others</p>
 
