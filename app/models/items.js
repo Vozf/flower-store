@@ -4,10 +4,7 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var Item = new Schema({
-    href:{
-        type:String,
-        required: true
-    },
+
     isAvailiable:{
         type:Boolean,
         default:true
@@ -47,6 +44,9 @@ var Item = new Schema({
     }
 });
 Item.index({ name: 'text',tags: 'text',_id:'text' });
+Item.virtual('href').get(function(){
+    return process.env.APP_URL+"item/"+this._id
+})
 Item.pre('save', function(next) {
   
 
@@ -65,14 +65,6 @@ Item.pre('save', function(next) {
  
   next();
 });
-Item.pre('validate', function(next) {
 
-  this.href=process.env.APP_URL+"item/"+this._id; 
-
-
-
- 
-  next();
-});
 
 module.exports = mongoose.model('Item', Item);
