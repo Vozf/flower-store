@@ -324,9 +324,9 @@ function ClickHandler () {
 	}
 	this.slideShow=function(req,res){		//slideshow
 	
-			let slideShow=[{href:"https://flower-store-vozf.c9users.io/search?q=just+because",img:"https://www.ftdimg.com/pics/products/cday16_promo_full_size_justbecause_2999.jpg"},
-			{href:"https://flower-store-vozf.c9users.io/search?q=best+seller",img:"https://www.ftdimg.com/pics/products/vday17_hpslide_studio_np.jpg"}, {href:"https://flower-store-vozf.c9users.io/search?q=plants",img:"https://www.ftdimg.com/pics/products/vday17_hpslide_plants_np.jpg"},
-	{href:"https://flower-store-vozf.c9users.io/search?q=birthday",img:"https://www.ftdimg.com/pics/products/eday17_hpslide_bday_np.jpg"}, {href:"https://flower-store-vozf.c9users.io/search?q=sale",img:"https://www.ftdimg.com/pics/products/vday17_hpslide_weekendsale_50_alt3.jpg"}]
+			let slideShow=[{href:"/search?q=just+because",img:"https://www.ftdimg.com/pics/products/cday16_promo_full_size_justbecause_2999.jpg"},
+			{href:"/search?q=best+seller",img:"https://www.ftdimg.com/pics/products/vday17_hpslide_studio_np.jpg"}, {href:"/search?q=plants",img:"https://www.ftdimg.com/pics/products/vday17_hpslide_plants_np.jpg"},
+	{href:"/search?q=birthday",img:"https://www.ftdimg.com/pics/products/eday17_hpslide_bday_np.jpg"}, {href:"/search?q=sale",img:"https://www.ftdimg.com/pics/products/vday17_hpslide_weekendsale_50_alt3.jpg"}]
 		
 		res.json(slideShow);
 		
