@@ -171,6 +171,7 @@ class Contents extends React.Component {
   }
   render() {
      let items;
+     
    // console.log(this.items);
     if(this.props.items.arr)
        items = this.props.items.arr.map((obj, i) => {
